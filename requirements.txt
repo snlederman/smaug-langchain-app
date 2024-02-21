@@ -1,0 +1,9 @@
+Flask
+transformers
+sentence-transformers
+langchain
+pypdf
+chromadb
+openai
+tiktoken
+langchain-openai

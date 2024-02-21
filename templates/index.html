@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Interaction with LLM</title>
+</head>
+<body>
+    <h1>Upload a PDF to Interact With</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="application/pdf">
+        <input type="submit" value="Upload PDF">
+    </form>
+
+    <h2>Ask a Question About the PDF</h2>
+    <form action="/query" method="post">
+        <input type="text" name="query" placeholder="Enter your query here">
+        <input type="submit" value="Submit Query">
+    </form>
+</body>
+</html>
+
